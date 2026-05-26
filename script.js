@@ -18,12 +18,6 @@ monBouton.addEventListener('click', () => {
         if (score >= 10 * efficienceScore*0.5) {
             levelUp.style.opacity = 1;
         }
-        else {
-            levelUp.style.opacity = 0;
-        }
-    }
-    else {
-        levelUp.style.opacity = 0;
     }
 });
 
