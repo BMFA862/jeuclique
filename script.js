@@ -35,7 +35,7 @@ levelUp.addEventListener('click', () => {
             txtEff.style.opacity = 1;
         }
         if (score <= 10 * efficienceScore*0.5) {
-            levelUp.style.opacity = 0;
+            levelUp.style.opacity = 0.15;
         }
     }
 });
