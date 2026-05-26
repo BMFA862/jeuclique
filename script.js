@@ -39,5 +39,3 @@ levelUp.addEventListener('click', () => {
         }
     }
 });
-
-
