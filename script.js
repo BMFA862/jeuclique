@@ -1,6 +1,7 @@
 const monBouton = document.getElementById('mon-bouton');
 const scoreAffichage = document.getElementById('score');
 const levelUp = document.getElementById('level-up');
+const boost = document.getElementById('boost');
 const niveauAffichage = document.getElementById('niveau');
 const efficience = document.getElementById('efficience');
 const price = document.getElementById('price');
@@ -14,11 +15,12 @@ let efficienceScore = 1;
 monBouton.addEventListener('click', () => {
     score = score + 1 * (efficienceScore);
     scoreAffichage.textContent = score;
-    if (score >=10){
-        if (score >= 10 * efficienceScore*0.5) {
-            levelUp.style.opacity = 1;
-        }
+    if (score >= 10 * efficienceScore*0.5) {
+        levelUp.style.opacity = 1;
     }
+    if (score >= 600000) {
+        boost.style.opacity = 1;
+        }
 });
 
 
