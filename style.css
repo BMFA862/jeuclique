@@ -1,0 +1,18 @@
+body{
+    background-color: #2B2B2B;
+}
+
+#level-up {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#txtLvl {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#txtEff {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
